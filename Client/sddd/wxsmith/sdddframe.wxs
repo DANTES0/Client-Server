@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="sdddFrame">
+		<size>1058,471</size>
+		<bg>#E8DDE8</bg>
+		<id_arg>0</id_arg>
+		<style>wxDEFAULT_FRAME_STYLE|wxBORDER_STATIC</style>
+		<handler function="OnClose1" entry="EVT_CLOSE" />
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<pos>24,400</pos>
+			<size>656,37</size>
+			<handler function="OnTextCtrl1Text1" entry="EVT_TEXT" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Enter</label>
+			<pos>688,400</pos>
+			<size>112,40</size>
+			<bg>wxSYS_COLOUR_ACTIVECAPTION</bg>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxRichTextCtrl" name="ID_RICHTEXTCTRL1" variable="RichTextCtrl1" member="yes">
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>modern</family>
+				<face>Courier New</face>
+			</font>
+			<pos>368,32</pos>
+			<size>312,336</size>
+			<style>wxRE_MULTILINE|wxRE_READONLY</style>
+			<handler function="OnRichTextCtrl1Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxRichTextCtrl" name="ID_RICHTEXTCTRL2" variable="RichTextCtrl2" member="yes">
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>modern</family>
+				<face>Courier New</face>
+			</font>
+			<pos>24,32</pos>
+			<size>312,336</size>
+			<style>wxRE_READONLY</style>
+			<handler function="OnRichTextCtrl2Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxRichTextCtrl" name="ID_RICHTEXTCTRL3" variable="RichTextCtrl3" member="yes">
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>modern</family>
+				<face>Courier New</face>
+			</font>
+			<pos>712,32</pos>
+			<size>312,336</size>
+			<style>wxRE_MULTILINE|wxRE_READONLY</style>
+			<handler function="OnRichTextCtrl3Text" entry="EVT_TEXT" />
+		</object>
+	</object>
+</wxsmith>

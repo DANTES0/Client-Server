@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1676361083 source:f:\Учёба\4 семак\СисПО\Курсач\К\server\s\main.cpp
+	<stdio.h>
+	<winsock2.h>
+	<windows.h>
+	<ws2tcpip.h>
+	<iostream>
+
+1681213272 source:c:\учиться учеба\4 сем\сисПО\курсач\cs\server\s\main.cpp
+	<stdio.h>
+	<winsock2.h>
+	<windows.h>
+	<ws2tcpip.h>
+	<iostream>
+
